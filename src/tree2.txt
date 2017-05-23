@@ -1,0 +1,47 @@
+|   Application.php
+|   
++---Console --- Installer.php
++---Controller
+|   |   AgricultoresController.php, AppController.php, ErrorController.php, FincasController.php
+|   |   PagesController.php, TransportistasController.php, UsersController.php, WorkreportsController.php
+|   |   ZonasController.php       
++---Locale --- es_ES --- default.po
++---Model
+|   +---Entity
+|   |       Agricultore.php, Finca.php, Transportista.php, User.php, Workreport.php, Zona.php
+|   \---Table
+|           AgricultoresTable.php, FincasTable.php, TransportistasTable.php, UsersTable.php, WorkreportsTable.php, ZonasTable.php         
++---Shell --  ConsoleShell.php
++---Template
+|   +---Agricultores
+			add.ctp, edit.ctp, index.ctp, view.ctp 
+|   +---Element
+|   |   \---Flash
+|   |           default.ctp, error.ctp,  success.ctp       
+|   +---Email
+|   |   +---html  default.ctp
+|   |   \---text  default.ctp
+|   +---Error
+|   |       error400.ctp, error500.ctp
+|   +---Fincas
+|   |       add.ctp, edit.ctp, index.ctp, view.ctp, worklist.ctp, workreport.ctp     
+|   +---Layout
+|   |   |   ajax.ctp, default.ctp, error.ctp
+|   |   +---Email
+|   |   |   +---html       default.ctp    
+|   |   |   \---text       default.ctp          
+|   |   \---rss|           default.ctp
+|   |           
+|   +---Pages              home.ctp
+|   +---Transportistas
+			add.ctp, edit.ctp, index.ctp
+|   +---Users
+|	|		add.ctp, edit.ctp, index.ctp, login.ctp, view.ctp   
+|   +---Workreports
+|   |       add.ctp, edit.ctp, index.ctp, view.ctp     
+|   \---Zonas
+			add.ctp, edit.ctp, index.ctp, view.ctp        
+\---View
+    |   AjaxView.php, AppView.php
+    \---Helper        helper.php
+            
